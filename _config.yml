@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Basil Veerman
+tagline:             A Personal Page
+url:                 http://basilveerman.github.io
 paginate:            1
 baseurl:             ""
 
@@ -17,14 +17,20 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Basil Veerman
+  url:               https://github.com/basilveerman
+  email:             basilveerman@gmail.com
 
 # Custom vars
-version:             2.0.0
+version:             0.0.1
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/basilveerman/basilveerman.githug.io
+
+# List of pages to include in the header of the website.
+pages_list:
+  About: '/about/'
+  Archive: '/archive/'
+  Feed: '/atom.xml'
 
 # Gems
 gems:
