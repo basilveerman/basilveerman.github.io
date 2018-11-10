@@ -19,9 +19,8 @@ docker run -t -i -p 5000:5000 -v $(pwd):/data osrm/osrm-backend osrm-routed --al
 Front end setup
 ```bash
 docker run -p 9966:9966 osrm/osrm-frontend
-xdg-open 'http://127.0.0.1:9966'
 ```
 
-Voila, you've got routing!
+Voila, you've got a routing front end at http://localhost:9966
 
 Source: https://hub.docker.com/r/osrm/osrm-backend/
