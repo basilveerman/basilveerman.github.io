@@ -21,6 +21,6 @@ Front end setup
 docker run -p 9966:9966 osrm/osrm-frontend
 ```
 
-Voila, you've got a routing front end at http://localhost:9966
+Voila, you've got a routing front end at [http://localhost:9966](http://localhost:9966)
 
-Source: https://hub.docker.com/r/osrm/osrm-backend/
+Source: [https://hub.docker.com/r/osrm/osrm-backend/](https://hub.docker.com/r/osrm/osrm-backend/)
