@@ -1,3 +1,10 @@
+Resources:
+# https://docs.python.org/3/library/unittest.mock.html#mock-open
+# https://stackoverflow.com/questions/24779893/customizing-unittest-mock-mock-open-for-iteration
+# https://stackoverflow.com/questions/26783678/python-mock-builtin-open-in-a-class-using-two-different-files
+# https://bash-shell.net/blog/file-iteration-python-mock/
+# http://omiron.ro/post/python/how_to_mock_open_file/
+# https://stackoverflow.com/questions/22201038/how-to-fix-mock-open-differences-in-calls-but-not-in-end-result
 
 ```python
 def test_regular_mocks(mocker):
