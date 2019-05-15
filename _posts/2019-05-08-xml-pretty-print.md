@@ -13,10 +13,11 @@ $ echo '{"json":"obj"}' | python -m json.tool
 }
 ```
 
-OK, so that's great! What if that terrible day arrives and you want to look at unformatted xml data in a command line environment? You _could_ just use `xmllint`, but that would just be too easy and remove the reason for writing this post.
+OK, so that's great! What if that terrible day arrives and you want to look at unformatted *xml* data in a command line environment? You _could_ just use `xmllint`, but that would just be too easy and remove the reason for writing this post.
 
 ```bash
-$ echo '<data><country name="Liechtenstein"><rank>1</rank><year>2008</year><gdppc>141100</gdppc><neighbor name="Austria" direction="E"/><neighbor name="Switzerland" direction="W"/></country></data>' | python -c "import sys; from xml.dom import minidom; print minidom.parseString(sys.stdin.read()).toprettyxml()"
+$ echo '<data><country name="Liechtenstein"><rank>1</rank><year>2008</year><gdppc>141100</gdppc><neighbor name="Austria" direction="E"/><neighbor name="Switzerland" direction="W"/></country></data>' \
+| python -c "import sys; from xml.dom import minidom; print minidom.parseString(sys.stdin.read()).toprettyxml()"
 
 <?xml version="1.0" ?>
 <data>
