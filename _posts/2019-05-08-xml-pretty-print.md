@@ -3,7 +3,7 @@ layout: post
 title: Pretty printing xml
 ---
 
-A large portion of my day is spent in a command line environment. When inspecting data, I use many different tools to help in this: `grep`, `less`, `find`, `sort`, `cut`, etc. If I'm looking at json data, this normally comes from some source that delivers this as a single long string. Python's `json.tool` comes to the rescue to convert this wall of text into prettified and human redable data. Here is the example from the (docs)[https://docs.python.org/3/library/json.html#module-json.tool]:
+A large portion of my day is spent in a command line environment. When inspecting data, I use many different tools to help in this: `grep`, `less`, `find`, `sort`, `cut`, etc. If I'm looking at json data, this normally comes from some source that delivers this as a single long string. Python's `json.tool` comes to the rescue to convert this wall of text into prettified and human redable data. Here is the example from the [docs](https://docs.python.org/3/library/json.html#module-json.tool):
 
 ```bash
 $ echo '{"json":"obj"}' | python -m json.tool
